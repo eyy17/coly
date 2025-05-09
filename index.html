@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Devon Stank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="top-navbar">
+        <ul>
+            <li><a href="#random-facts">Random Facts</a></li>
+            <li><a href="#nut-shell">Me in a Nut-Shell</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#back-story">Back Story</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#learning">Learning</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="header hero-header">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Dig Deeper.</h1>
+            <p>Coly Pacatang</p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="split-section" id="random-facts">
+            <div class="split-image"></div>
+            <div class="split-content">
+                <h2>Random Facts.</h2>
+                <p>I have a passion for coffee, I have a cat named after MacGyver, my favorite number is 22, love a good Old Fashion, I play video games like it's my life, I knew what I wanted to do at the age of 13, my favorite food is bacon, and I broke my left arm twice.</p>
+            </div>
+        </div>
+
+        <div class="section nutshell-section" id="nut-shell">
+            <span class="nutshell-label">ME IN A NUT-SHELL</span>
+            <h3 class="nutshell-main">I'm a friend, classmate, dog lover, gamer, whiskey drinker, and a BSIT student.</h3>
+        </div>
+        <div class="section video-section" id="video">
+            <video id="about-video" muted loop width="100%" poster="me.jpg" style="max-width: 600px; display: block; margin: 0 auto; border-radius: 12px; box-shadow: 0 2px 15px rgba(0,0,0,0.3);">
+                <source src="nature.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="section" id="back-story">
+            <h2>Back Story.</h2>
+            <p>Yes, as I mentioned in my random facts — I knew what I wanted to do by the age of 13. Growing up, I was deep into video games. But I wasn't just playing them — I was thinking about how they were built. That curiosity turned into notebooks filled with game ideas, sketches, and concepts I worked on with a few friends. Eventually, we realized: we need a website for this.</p>
+            
+            <p>So, I started teaching myself the basics. Bit by bit, I learned how to design and build something from scratch, and I loved every second of it.</p>
+            
+            <p>Now, as a second-year college student, I'm still on that journey — exploring design, development, and creative storytelling. At the same time, I've found that stepping away from the screen matters just as much. I'm someone who loves nature — going on hikes, camping trips, or just sitting near the water. Those quiet moments outdoors help clear my head and recharge my creativity.</p>
+            
+            <p>Even though I'm still studying and learning, I've already picked up a lot — not just technical skills, but a mindset: ask questions, figure things out, and keep building.</p>
+            
+            <p>I don't have it all figured out yet, and that's the best part. I'm in the middle of the process — making things, messing up, learning, and growing. And honestly, I love it.</p>
+        </div>
+        <div class="photo-grid-section" id="photos">
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="motor.jpg" alt="The ride.">
+                    <div class="photo-caption">The ride.</div>
+                </div>
+                <div class="photo-item">
+                    <img src="code.jpg" alt="The code.">
+                    <div class="photo-caption">The code.</div>
+                </div>
+                <div class="photo-item">
+                    <img src="hobby.jpg" alt="The hobby.">
+                    <div class="photo-caption">The hobby.</div>
+                </div>
+                <div class="photo-item">
+                    <img src="bike.jpg" alt="The bike.">
+                    <div class="photo-caption">The bike.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="learning">
+            <h2>Learning</h2>
+            <p>I learned how to use VS Code and work with HTML, CSS, and JavaScript to build and style web pages. I also became more confident in writing clean, structured code and organizing files in a project. Most importantly, I realized how powerful even simple lines of code can be in creating interactive and visually engaging websites.</p>
+        </div>
+
+        <div class="contact-info" id="contact">
+            <p>colywisdom@gmail.com<br>
+            09941087732</p>
+        </div>
+        <div class="form-flex-section">
+            <div class="form-left">
+                <h2 class="form-title">Talk with me</h2>
+                <p class="form-desc">Fill out your information and I will reach out to you. Have a simple question? <a href="#" class="faq-link">Check out our FAQ.</a></p>
+            </div>
+            <div class="form-section">
+                <form class="sales-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="e.g., John" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Smith" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Company Email *</label>
+                        <input type="email" id="email" name="email" placeholder="name@company.com" required>
+                        <span id="emailError" style="font-size:0.95em; margin-top:0.2em; display:block;"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 555 655 5656" required>
+                        <span id="contactError" style="font-size:0.95em; margin-top:0.2em; display:block;"></span>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="country">Country *</label>
+                            <select id="country" name="country" required>
+                                <option value="">Select...</option>
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="UK">UK</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender *</label>
+                        <div class="gender-options">
+                            <label><input type="radio" name="gender" value="male" required> Male</label>
+                            <label><input type="radio" name="gender" value="female" required> Female</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">What would you like to discuss? *</label>
+                        <textarea id="message" name="message" rows="4" placeholder="" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© <span class="current-year">2024</span> Coly Pacatang. All rights reserved. BSIT Student</p>
+            <p>
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Return Policy</a> | 
+                <a href="#">Privacy Policy</a>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
